@@ -1,0 +1,15 @@
+class Student
+{
+	int roll;
+	String name;
+	void setValues(int a,String b)
+	{
+		roll=a;
+		name=b;
+	}
+	void display()
+	{
+		System.out.println("ROLL="+roll+" NAME = "+name);
+	}
+}
+ 
